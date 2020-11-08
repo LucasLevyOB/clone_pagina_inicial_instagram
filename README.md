@@ -4,6 +4,9 @@
 
 ---
 
+##### Tecnologias usadas
+Foi utilizado o HTML5 para marcação de texto, CSS3 para estilização e o JavaScript para interação com o usuário.
+
 ##### O que tem?
 1. **Slide funcional**;
 2. Imagens do instagram em uso;

@@ -1,0 +1,208 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fafafa;
+    min-height: 100vh;
+    width: 100%;
+}
+a {
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 14px;
+    color: #079bf7;
+    text-decoration: none;
+}
+
+span {
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+div {
+    word-wrap: break-word;
+}
+
+img {
+    width: 100%;
+}
+
+/* generics classes */
+.margin-b-20 {
+    margin-bottom: 20px;
+}
+
+.span-2 {
+    margin-bottom: 10px;
+}
+
+.span-1 {
+    color: rgba(142, 142, 142, 1);
+    margin-bottom: 4px;
+}
+
+.width {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    border: .5px solid #dbdbdb;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px 2px;
+}
+
+.padding-b-10 {
+    padding-bottom: 10px;
+}
+
+.padding-b-5 {
+    padding-bottom: 5px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.margin-15 {
+    margin: 15px;
+}
+
+#actions {
+    justify-content: space-around;
+    margin-top: 32px;
+    max-width: 350px;
+    width: 50%;
+}
+
+.margin-b-5 {
+    margin-bottom: 5px;
+}
+
+/* generics classes end */
+
+#getApp .appsStores {
+    width: 46%;
+}
+
+.divAppsStores {
+    margin-top: 10px;
+    /* padding: 0 5px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a.buttonContinue {
+    margin: 16px 20px;
+    border-radius: 4px;
+    padding: 5px 9px;
+    color: #ffffff;
+    background-color: #079bf7;
+}
+
+#continue > .userPhoto > img{
+    border-radius: 50%;
+}
+
+#continue > .userPhoto {
+    margin: 8px auto 16px auto;
+    border-radius: 50%;
+    height: auto;
+    width: 84px;
+}
+
+#continue > img.instagramLogo {
+    margin: 22px auto 12px auto;
+    max-width: 200px;
+}
+
+.carouselItem {
+    z-index: 0;
+    position: absolute;
+    height: auto;
+    width: 100%;
+}
+
+.imgOpacity {
+    opacity: 1 !important;
+}
+
+#phones > #carousel > #carouselItems > .carouselItem {
+    opacity: 0;
+    transition-duration: 1s;
+}
+#phones > #carousel > #carouselItems {
+    height: auto;
+    width: 257px;
+    z-index: 2;
+    left: 5px;
+    top: 31px;
+    position: absolute;
+}
+
+#phones > #carousel {
+    z-index: 1;
+    height: auto;
+    max-width: 300px;
+    left: 50px;
+    top: 20px;
+    position: absolute;
+}
+#phones > #phone1 {
+    z-index: 0;
+    height: auto;
+    max-width: 270px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#phones {
+    position: relative;
+    width: 50%;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    max-width: 700px;
+    width: 100%;
+}
+
+@media(max-width: 702px) {
+    #phones {
+        display: none;
+    }
+    #actions {
+        margin: auto;
+        width: 100%;
+    }
+}
